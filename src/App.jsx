@@ -4,7 +4,7 @@ import authService from "./appwrite/auth"
 import './App.css'
 import { logout } from './store/authSlice'
 import { Outlet } from 'react-router-dom'
-import Header from './component/header/Header'
+import Header from './component/Header/Header'
 import Footer from './component/footer/Footer'
 import React from 'react'
 import { login } from './store/authSlice'
